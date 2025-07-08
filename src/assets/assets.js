@@ -1,9 +1,11 @@
 /* eslint-disable no-unused-vars */
 import logo from "./logo.png";
+import hero_img from "./hero_img.png";
 
 // export assets
 export const assets = {
   logo,
+  hero_img,
 };
 
 // export products assets
