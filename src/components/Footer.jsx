@@ -38,7 +38,7 @@ const Footer = () => {
       <div>
         <hr className="text-[#E5E7EB]" />
         <p className="py-5 text-sm text-center">
-          Copyright 2024@ greatstack.dev - All Right Reserved.
+          &copy; {new Date().getFullYear()} TrendyMart. All rights reserved.
         </p>
       </div>
     </div>
