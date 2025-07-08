@@ -1,10 +1,16 @@
 import logo from "./logo.png";
 import hero_img from "./hero_img.png";
+import exchange_icon from "./exchange_icon.png";
+import quality_icon from "./quality_icon.png";
+import customer_support from "./customer_support.png";
 
 // export assets
 export const assets = {
   logo,
   hero_img,
+  exchange_icon,
+  quality_icon,
+  customer_support,
 };
 
 // export products assets
