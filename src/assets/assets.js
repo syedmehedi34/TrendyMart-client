@@ -1,0 +1,23 @@
+/* eslint-disable no-unused-vars */
+import logo from "./logo.png";
+
+// export assets
+export const assets = {
+  logo,
+};
+
+// export products assets
+export const products = [
+  {
+    _id: "aaaaa",
+    name: "Women Round Neck Cotton Top",
+    description: "This is product 1",
+    price: 100,
+    image: [logo],
+    category: "Women",
+    subCategory: "Topwear",
+    sizes: ["S", "M", "L"],
+    date: 1716634345448, // timestamp
+    bestseller: true,
+  },
+];
