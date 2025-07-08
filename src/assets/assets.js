@@ -22,7 +22,7 @@ export const products = [
     subCategory: "Trousers",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d8897f779795ecfa98df",
@@ -37,7 +37,7 @@ export const products = [
     subCategory: "T-shirt",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d5b67f779795ecfa98bb",
@@ -52,7 +52,7 @@ export const products = [
     subCategory: "T-shirt",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d8d17f779795ecfa98e5",
@@ -67,7 +67,7 @@ export const products = [
     subCategory: "Jacket",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d5e07f779795ecfa98bd",
@@ -82,7 +82,7 @@ export const products = [
     subCategory: "Trousers",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d4b27f779795ecfa98ab",
@@ -97,7 +97,7 @@ export const products = [
     subCategory: "Topwear",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683daf67f779795ecfa9905",
@@ -112,7 +112,7 @@ export const products = [
     subCategory: "Jacket",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683dadf7f779795ecfa9903",
@@ -127,7 +127,7 @@ export const products = [
     subCategory: "Trousers",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d94e7f779795ecfa98ed",
@@ -142,7 +142,7 @@ export const products = [
     subCategory: "Shirt",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d8f27f779795ecfa98e7",
@@ -157,7 +157,7 @@ export const products = [
     subCategory: "Jacket",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d7d57f779795ecfa98d7",
@@ -172,7 +172,7 @@ export const products = [
     subCategory: "Jacket",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d79e7f779795ecfa98d3",
@@ -187,7 +187,7 @@ export const products = [
     subCategory: "Jacket",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d7567f779795ecfa98cf",
@@ -202,7 +202,7 @@ export const products = [
     subCategory: "T-shirt",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d4587f779795ecfa98a7",
@@ -217,7 +217,7 @@ export const products = [
     subCategory: "T-shirt",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d3947f779795ecfa98a1",
@@ -232,7 +232,7 @@ export const products = [
     subCategory: "Topwear",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d7b57f779795ecfa98d5",
@@ -247,7 +247,7 @@ export const products = [
     subCategory: "Topwear",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683da717f779795ecfa98fb",
@@ -262,7 +262,7 @@ export const products = [
     subCategory: "Jacket",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d6c47f779795ecfa98c9",
@@ -277,7 +277,7 @@ export const products = [
     subCategory: "Jacket",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d6387f779795ecfa98c1",
@@ -292,7 +292,7 @@ export const products = [
     subCategory: "Trousers",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d57d7f779795ecfa98b7",
@@ -307,7 +307,7 @@ export const products = [
     subCategory: "T-shirt",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d4f47f779795ecfa98af",
@@ -322,7 +322,7 @@ export const products = [
     subCategory: "T-shirt",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d6547f779795ecfa98c3",
@@ -337,7 +337,7 @@ export const products = [
     subCategory: "T-shirt",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d8b37f779795ecfa98e3",
@@ -352,7 +352,7 @@ export const products = [
     subCategory: "Topwear",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683daa27f779795ecfa98ff",
@@ -367,7 +367,7 @@ export const products = [
     subCategory: "Jacket",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d9fa7f779795ecfa98f5",
@@ -382,7 +382,7 @@ export const products = [
     subCategory: "Trousers",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d90a7f779795ecfa98e9",
@@ -397,7 +397,7 @@ export const products = [
     subCategory: "Topwear",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: true,
   },
   {
     _id: "6683d8467f779795ecfa98dd",
@@ -412,7 +412,7 @@ export const products = [
     subCategory: "T-shirt",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d6057f779795ecfa98bf",
@@ -427,7 +427,7 @@ export const products = [
     subCategory: "Topwear",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: true,
   },
   {
     _id: "6683d5987f779795ecfa98b9",
@@ -442,7 +442,7 @@ export const products = [
     subCategory: "T-shirt",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d6dc7f779795ecfa98cb",
@@ -457,7 +457,7 @@ export const products = [
     subCategory: "Pants",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d42b7f779795ecfa98a5",
@@ -472,7 +472,7 @@ export const products = [
     subCategory: "Topwear",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683db0d7f779795ecfa9907",
@@ -487,7 +487,7 @@ export const products = [
     subCategory: "Jacket",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d91f7f779795ecfa98eb",
@@ -502,7 +502,7 @@ export const products = [
     subCategory: "T-shirt",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: true,
   },
   {
     _id: "6683da147f779795ecfa98f7",
@@ -517,7 +517,7 @@ export const products = [
     subCategory: "Jacket",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: true,
   },
   {
     _id: "6683d89d7f779795ecfa98e1",
@@ -532,7 +532,7 @@ export const products = [
     subCategory: "Topwear",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: true,
   },
   {
     _id: "6683d5647f779795ecfa98b5",
@@ -547,7 +547,7 @@ export const products = [
     subCategory: "T-shirt",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d82b7f779795ecfa98db",
@@ -562,7 +562,7 @@ export const products = [
     subCategory: "Topwear",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d6887f779795ecfa98c5",
@@ -577,7 +577,7 @@ export const products = [
     subCategory: "T-shirt",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: true,
   },
   {
     _id: "6683d7737f779795ecfa98d1",
@@ -592,7 +592,7 @@ export const products = [
     subCategory: "Topwear",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d9b27f779795ecfa98f1",
@@ -607,7 +607,7 @@ export const products = [
     subCategory: "T-shirt",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d6a57f779795ecfa98c7",
@@ -622,7 +622,7 @@ export const products = [
     subCategory: "Pants",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d5217f779795ecfa98b1",
@@ -637,7 +637,7 @@ export const products = [
     subCategory: "Topwear",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d9d07f779795ecfa98f3",
@@ -652,7 +652,7 @@ export const products = [
     subCategory: "T-shirt",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d9847f779795ecfa98ef",
@@ -667,7 +667,7 @@ export const products = [
     subCategory: "Jacket",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d71c7f779795ecfa98cd",
@@ -682,7 +682,7 @@ export const products = [
     subCategory: "T-shirt",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683dabc47f779795ecfa9901",
@@ -697,7 +697,7 @@ export const products = [
     subCategory: "Trousers",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683da5f7f779795ecfa98f9",
@@ -712,7 +712,7 @@ export const products = [
     subCategory: "Jacket",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d4d97f779795ecfa98ad",
@@ -727,7 +727,7 @@ export const products = [
     subCategory: "Trousers",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d4937f779795ecfa98a9",
@@ -742,7 +742,7 @@ export const products = [
     subCategory: "Topwear",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d8097f779795ecfa98d9",
@@ -757,7 +757,7 @@ export const products = [
     subCategory: "Topwear",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d5417f779795ecfa98b3",
@@ -772,7 +772,7 @@ export const products = [
     subCategory: "Trousers",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
   {
     _id: "6683d3d47f779795ecfa98a3",
@@ -787,6 +787,6 @@ export const products = [
     subCategory: "T-shirt",
     sizes: ["S", "M", "L"],
     date: 1739217360000,
-    bestseller: false,
+    bestSeller: false,
   },
 ];
