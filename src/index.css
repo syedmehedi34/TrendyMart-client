@@ -1,2 +1,8 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+/*  */
+/* css class for navbar's nav links underline */
+a.active hr {
+  display: block;
+}
