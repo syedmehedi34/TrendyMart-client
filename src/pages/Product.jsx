@@ -3,6 +3,7 @@ import { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { ShopContext } from "../context/ShopContext";
 import { Star } from "lucide-react";
+import RelatedProducts from "../components/RelatedProducts";
 
 const Product = () => {
   const { productId } = useParams();
@@ -28,7 +29,7 @@ const Product = () => {
 
   return productData ? (
     <div className="border-t-2 pt-10 border-gray-200 transition-opacity ease-in duration-500 opacity-100">
-      {/* product data  */}
+      {/* product data starts */}
       <div className="flex gap-12 flex-col sm:flex-row">
         {/* product images */}
         <div className="flex-1 flex flex-col-reverse gap-3 sm:flex-row">
@@ -48,7 +49,7 @@ const Product = () => {
           </div>
         </div>
 
-        {/* product description */}
+        {/* product description part starts */}
         <div className="flex-1 ">
           <h1 className="font-medium text-2xl mt-2">{productData?.name}</h1>
           <div className="flex items-center gap-1 mt-2">
@@ -94,7 +95,47 @@ const Product = () => {
             <p>Easy return and exchange policy within 7 days.</p>
           </div>
         </div>
+        {/* product description part ends */}
       </div>
+      {/* product data ends */}
+
+      {/* description and review section starts */}
+      <div className="mt-20 ">
+        <div className="flex ">
+          <p className="border border-[#E5E7EB] px-5 py-3 text-sm font-bold">
+            Description
+          </p>
+          <p className="border border-[#E5E7EB] px-5 py-3 text-sm">
+            Reviews (122)
+          </p>
+        </div>
+
+        <div className="flex flex-col gap-4 border border-[#E5E7EB] px-6 py-6 text-sm text-gray-500">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+            cumque, voluptatum, asperiores, incidunt quisquam sed unde
+            exercitationem magnam doloremque nobis ad. Quisquam, cumque
+            voluptatum! Doloribus cumque, voluptatum, asperiores, incidunt
+            quisquam sed unde exercitationem magnam doloremque nobis ad.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+            cumque, voluptatum, asperiores, incidunt quisquam sed unde
+            exercitationem magnam doloremque nobis ad. Quisquam, cumque
+            voluptatum! Doloribus cumque, voluptatum, asperiores, incidunt
+            quisquam sed unde exercitationem magnam doloremque nobis ad.
+          </p>
+        </div>
+      </div>
+      {/* description and review section ends */}
+
+      {/* display related products starts */}
+      <RelatedProducts
+        category={productData.category}
+        subCategory={productData.subCategory}
+      />
+
+      {/* display related products ends */}
     </div>
   ) : (
     <div className="opacity-0">
