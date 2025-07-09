@@ -51,10 +51,6 @@ const Collection = () => {
   };
 
   useEffect(() => {
-    setFilterProducts(products);
-  }, [products]);
-
-  useEffect(() => {
     applyFilter();
   }, [category, subCategory]);
 
