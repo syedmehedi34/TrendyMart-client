@@ -34,6 +34,24 @@ const ShopContextProvider = (props) => {
     setCartItems(cartData);
   };
 
+  // cart counting
+  const getCartCount = async () => {
+    let totalCount = 0;
+
+    for (const items in cartItems) {
+      for (const item in cartItems[items]) {
+        try {
+          if (cartItems[items][item] > 0) {
+            totalCount += cartItems[items][item];
+          }
+        } catch (error) {
+          console.error("Error counting cart items:", error);
+        }
+      }
+    }
+    return totalCount;
+  };
+
   useEffect(() => {
     console.log(cartItems);
   }, [cartItems]);
@@ -48,6 +66,7 @@ const ShopContextProvider = (props) => {
     setShowSearch,
     cartItems,
     addToCart,
+    getCartCount,
   };
 
   return (
