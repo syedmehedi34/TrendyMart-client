@@ -23,6 +23,9 @@ export const products = [
     price: 38,
     image: [
       "https://raw.githubusercontent.com/avinashdm/gs-images/main/forever/p_img47.png",
+      "https://raw.githubusercontent.com/avinashdm/gs-images/main/forever/p_img15.png",
+      "https://raw.githubusercontent.com/avinashdm/gs-images/main/forever/p_img15.png",
+      "https://raw.githubusercontent.com/avinashdm/gs-images/main/forever/p_img47.png",
     ],
     category: "Kids",
     subCategory: "Bottomwear",
